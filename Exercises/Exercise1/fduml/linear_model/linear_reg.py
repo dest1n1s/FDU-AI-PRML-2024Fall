@@ -1,8 +1,11 @@
 """
 Linear Regression
 """
+
 import numpy as np
+
 from .linear import LinearModel
+
 
 class LinearRegression(LinearModel):
     """
@@ -52,10 +55,6 @@ class LinearRegression(LinearModel):
         # TODO:                                                                   #
         # Implement this method. Store the predicted coef_ and intercept_         #
         # in the self.coef_. and self.intercept_ respectively.                    #
-        #                                                                         #
-        # Notice:                                                                 #
-        # You can NOT use the linear algebra lib 'numpy.linalg' of numpy.         #
-        # Do not forget the self.reg_ item.                                       #
         ###########################################################################
         # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
